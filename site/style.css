@@ -10,8 +10,70 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    min-height: 100vh;
+}
+
 section#home img {
     max-width: 100vw;
+}
+
+
+section#historia {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+section#historia h2 {
+    font-size: 36pt;
+    margin: 2rem 0;
+}
+
+section#historia p.intro {
+    max-width: 55%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 7rem;
+}
+
+section#historia p {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+section#historia .cards-container {
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+}
+
+section#historia .cards-container i {
+    color: #A7FBD3;
+    font-size: 64px;
+    font-weight: bold;
+
+    margin-bottom: 1rem;
+}
+
+section#historia .cards-container div {
+    max-width: 33%;
+}
+
+section#historia .cards-container div h3 {
+    margin-bottom: 2rem;
+}
+
+section#historia .cards-container div p {
+    max-width: 70%;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#quem-somos {
@@ -73,8 +135,6 @@ section#contato {
     flex-direction: row;
 
     padding: 2rem;
-
-    min-height: 100vh;
 }
 
 #contato .logo-container {
