@@ -27,8 +27,11 @@ section#historia {
 }
 
 section#historia h2 {
-    font-size: 36pt;
+    font-size: 48px;
     margin: 2rem 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 section#historia p.intro {
@@ -88,38 +91,47 @@ section#quem-somos {
 #quem-somos .text-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 
     width: 40vw;
 }
 
 #quem-somos .text-container h2 {
-    font-size: 35pt;
-    font-weight: 900;
     max-width: 30%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+
+    margin-bottom: 3.5rem;
 }
 
 #quem-somos .text-container p {
     color: rgba(0, 0, 0, 0.555);
-    max-width: 80%;
+    max-width: 70%;
+
+    margin-bottom: 3.5rem;
 }
 
 #quem-somos .text-container button {
     background-color: #3E194D;
     color: #A7FBD3;
-    width: 250px;
-    font-size: 18pt;
-    padding: 10px;
+    width: 230px;
+    font-size: 17px;
+    font-weight: 700;
+
+    padding: 15px;
     border-radius: 6px;
 
     outline: none;
+    border: none;
 }
 
-#quem-somos .text-container button img {
+#quem-somos .text-container button i {
     color: #A7FBD3;
-    width: 32px;
+    width: 24px;
 
     vertical-align: middle;
+    margin-left: 4px;
 }
 
 #quem-somos .img-container {
@@ -143,18 +155,20 @@ section#parceiros .title-container {
 }
 
 section#parceiros .title-container h2 {
-    font-size: 12pt;
+    font-size: 16px;
     text-align: center;
 
     letter-spacing: 8px;
-    color: rgba(0, 0, 0, 0.52);
+    color: rgba(0, 0, 0, 0.424);
 
     line-height: 4.3rem;
 }
 
 section#parceiros .title-container h2 span {
-    font-size: 50pt;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+
     display: block;
     letter-spacing: 0px;
 
@@ -214,19 +228,21 @@ section#contato {
     flex-direction: column;
     justify-content: space-between;
 
+    align-items: center;
+
     color: white;
 
     width: 50%;
-
-    text-align: center;
 }
 
 #contato .logo-container h2 {
-    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
 }
 
 #contato .logo-container p {
-    font-size: 12pt;
+    font-size: 17px;
     color: rgba(255, 255, 255, 0.466);
 }
 
@@ -247,20 +263,20 @@ section#contato {
     border-radius: 10px;
 }
 
-form label {
+#contato form label {
     color: rgba(0, 0, 0, 0.596);
     margin-bottom: 2px;
 }
 
-form .input-group {
+#contato form .input-group {
     display: flex;
     flex-direction: column;
 
     margin-bottom: 1.5rem;
 }
 
-form input, 
-form textarea {
+#contato form input, 
+#contato form textarea {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.048);
 
@@ -268,14 +284,14 @@ form textarea {
     border: 0;
 }
 
-form textarea {
+#contato form textarea {
     resize: vertical;
 
     max-height: 150px;
 }
 
 
-form button {
+#contato form button {
     background-color: #3E194D;
     color: #A7FBD3;
     width: 100px;
@@ -285,4 +301,5 @@ form button {
     border-radius: 6px;
 
     outline: none;
+    border: none;
 }
