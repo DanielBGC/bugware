@@ -79,6 +79,68 @@ section#historia .cards-container div p {
     margin-right: auto;
 }
 
+section#yoda {
+    position: relative;
+}
+
+section#yoda .img-container {
+    max-width: 100vw;
+    display: inline-block;
+
+}
+
+section#yoda img.fundo {
+    position: absolute;
+
+    clip: rect(0px, 1400px, 400px, 0px);
+
+    height: 100vh;
+    width: 100vw;
+
+    /* object-fit: contain; */
+    object-fit: cover;
+
+    filter: brightness(0.5)
+}
+
+section#yoda .title-container {
+    width: 100vw;
+
+    color: white;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 7rem;
+
+    text-align: center;
+}
+
+section#yoda .title-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;    
+
+    font-size: 28px;
+}
+
+section#yoda .title-container p {
+    opacity: 0.9;
+    font-size: 14px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 1rem;
+}
+
+section#yoda .title-container img {
+    width: 64px;
+    border-radius: 50%;
+
+    box-shadow: black 0px 0px 20px 5px;
+}
+
+
+
 section#quem-somos {
     background-color: #f0f0f0;
 
