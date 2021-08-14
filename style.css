@@ -41,6 +41,8 @@ section#historia p.intro {
     margin-right: auto;
 
     margin-bottom: 7rem;
+
+    line-height: 25px;
 }
 
 section#historia p {
@@ -77,6 +79,8 @@ section#historia .cards-container div p {
 
     margin-left: auto;
     margin-right: auto;
+
+    line-height: 25px;
 }
 
 section#yoda {
@@ -139,7 +143,84 @@ section#yoda .title-container img {
     box-shadow: black 0px 0px 20px 5px;
 }
 
+section#servicos {
+    margin-bottom: 3rem;
+    margin-top: 0;
+}
 
+section#servicos h2 {
+    margin-bottom: 3rem;
+
+    font-size: 14px;
+    text-align: center;
+
+    letter-spacing: 6px;
+    color: rgba(0, 0, 0, 0.424);
+
+    line-height: 3rem;
+}
+
+section#servicos h2 span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+
+    display: block;
+    letter-spacing: -1px;
+
+    color: black;
+}
+
+section#servicos .cards-container {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+section#servicos .cards-container img {
+    height: 500px;
+}
+
+section#servicos .cards-container .card-container-left {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 5rem;
+}
+
+section#servicos .cards-container .card-container-right {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 5rem;
+    text-align: end;
+}
+
+section#servicos .cards-container .card-container-left .card p {
+    width: 90%;
+}
+
+section#servicos .cards-container .card {
+    margin-bottom: 4rem;
+}
+
+section#servicos .cards-container .card h3 {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+section#servicos .cards-container .card p {
+    opacity: 0.5;
+
+    line-height: 25px;
+}
 
 section#quem-somos {
     background-color: #f0f0f0;
@@ -172,6 +253,8 @@ section#quem-somos {
     max-width: 70%;
 
     margin-bottom: 3.5rem;
+
+    line-height: 25px;
 }
 
 #quem-somos .text-container button {
@@ -182,7 +265,7 @@ section#quem-somos {
     font-weight: 700;
 
     padding: 15px;
-    border-radius: 6px;
+    border-radius: 4px;
 
     outline: none;
     border: none;
