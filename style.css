@@ -330,6 +330,10 @@ section#parceiros .cards-container {
 
 section#parceiros .cards-container .card {
     max-width: 23%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 section#parceiros .card img {
